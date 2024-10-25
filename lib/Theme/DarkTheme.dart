@@ -7,7 +7,6 @@ class DarkAppTheme {
   );
 
   ThemeData darkTheme = ThemeData.dark().copyWith(
-    useMaterial3: true,
     colorScheme: kDarkColorScheme,
     appBarTheme: const AppBarTheme().copyWith(
       backgroundColor: kDarkColorScheme.secondaryContainer,

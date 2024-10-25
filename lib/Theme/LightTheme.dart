@@ -5,7 +5,6 @@ class AppTheme {
     seedColor: const Color.fromARGB(255, 104, 105, 236),
   );
   ThemeData lightTheme = ThemeData().copyWith(
-    useMaterial3: true,
     colorScheme: kColorScheme,
     appBarTheme: const AppBarTheme().copyWith(
       backgroundColor: kColorScheme.onPrimaryContainer,
